@@ -1,5 +1,5 @@
 1. # Task-Manager
-Task Manager is a simple application that allows users to manage their tasks. It supports user authentication, task creation, updating, deletion, and retrieval.
+Task Manager is a simple application that allows users to manage their tasks.
 
 2. Features included
 a.) User authentication (Sign up and Log in).
@@ -10,13 +10,6 @@ c.) Fetching overdue tasks by status(not completed ones will be fetched).
 Front end  language: React
 Backend Api and logic: Ruby on Rails
 Database: PostgreSQL
-Testing: RSpec 
-
-4. Challenges Faced
-Challenge: For preparing query for  overdue tasks and grouping by status.
-
-5. Assumptions
-Overdue tasks are defined strictly as tasks with a past due date and a status other than 'completed'.
 
 
 Steps to run locally.
@@ -48,14 +41,6 @@ C:\Users\user\AppData\Roaming\npm
 C:\Program Files\Git\bin
 C:\Program Files\PostgreSQL\12\bin
 
-
-Instructions for running the test cases.
-
-1. For user model test cases
-rspec spec/models/user_spec.rb from root path
-
-2. For all REST API cases
- rspec spec/models/user_spec.rb
 
 
 
